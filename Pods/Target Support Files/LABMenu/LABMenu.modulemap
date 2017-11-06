@@ -1,0 +1,6 @@
+framework module LABMenu {
+  umbrella header "LABMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
