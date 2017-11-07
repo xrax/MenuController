@@ -17,6 +17,11 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController!.isNavigationBarHidden = true
+        super.viewWillAppear(animated)
+    }
+    
     @IBAction func onLoginClick() {
 //        if tfEmail.text == "Some" && tfPassword.text == "Body" {
             let hostVC = storyboard!.instantiateViewController(withIdentifier: "HostViewController")

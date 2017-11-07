@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LABMenu:
-    :commit: 7861080756d6d74f8e95fa21b7093ea96b90bb62
+    :commit: 2444efef530c988b50f1449c1e2b870085225f6f
     :git: https://github.com/xrax/LABMenu.git
 
 SPEC CHECKSUMS:
