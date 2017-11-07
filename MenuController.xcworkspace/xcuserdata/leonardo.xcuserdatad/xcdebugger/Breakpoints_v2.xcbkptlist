@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MenuController/HostViewController.swift"
-            timestampString = "531704421.723242"
+            filePath = "Pods/LABMenu/LABMenu/LABMenuView.swift"
+            timestampString = "531709595.620424"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "setContentView(contentView:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/LABMenu/LABMenu/LABMenuViewController.swift"
-            timestampString = "531703598.367422"
+            filePath = "Pods/LABMenu/LABMenu/LABMenuView.swift"
+            timestampString = "531709595.621039"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "init(mainColor:tint:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
