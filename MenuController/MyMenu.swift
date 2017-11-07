@@ -34,8 +34,7 @@ class MyMenu: LABMenuContainer {
         Bundle.main.loadNibNamed("MyMenu",
                                  owner: self,
                                  options: nil)
-        self.frame.size = CGSize(width: UIScreen.main.bounds.width,
-                                 height: UIScreen.main.bounds.height)
+        
         self.view!.frame = CGRect(origin: CGPoint.zero,
                                   size: frame.size)
         self.addSubview(self.view!)
