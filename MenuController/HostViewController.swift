@@ -12,6 +12,7 @@ import LABMenu
 class HostViewController: LABMenuViewController {
     
     override func viewDidLoad() {
+        barColor = .gray
         super.viewDidLoad()
         
         menuView.setContentView(contentView: MyMenu(delegate: self))
