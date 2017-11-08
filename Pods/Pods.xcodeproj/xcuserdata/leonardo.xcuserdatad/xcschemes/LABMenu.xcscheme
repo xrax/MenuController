@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '097642D8A3B047445BC0A345C64D0E30'
+               BlueprintIdentifier = 'D463B140326C1B347234C47BEF6767CC'
                BlueprintName = 'LABMenu'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LABMenu.framework'>
