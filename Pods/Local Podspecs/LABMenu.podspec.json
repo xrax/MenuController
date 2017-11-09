@@ -24,5 +24,6 @@
   "source_files": [
     "LABMenu/*.swift",
     "LABMenu/*.xib"
-  ]
+  ],
+  "frameworks": "UIKit"
 }

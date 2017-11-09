@@ -10,12 +10,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pods/LABMenu/LABMenu/LABMenuViewController.swift"
-            timestampString = "531868135.172664"
+            timestampString = "531871542.198102"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
             landmarkName = "onPan(toProgress:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LABMenu/LABMenu/LABMenuView.swift"
+            timestampString = "531871542.198242"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "show()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LABMenu:
-    :commit: 76e30ed116bb5a76deab95353916d0fa5d2d2847
+    :commit: 606180d50d233995bb27e3dbcf6f5c07cbaed2a5
     :git: https://github.com/xrax/LABMenu.git
 
 SPEC CHECKSUMS:
-  LABMenu: c04d732cfe55b8c56d3017f4d2d1817eb4510dcd
+  LABMenu: 4f495cc4c4620a13e074c5da0cfa025e18586e9d
 
 PODFILE CHECKSUM: 9af699cbfbe2602f861f0d70a1022925f61fd76f
 

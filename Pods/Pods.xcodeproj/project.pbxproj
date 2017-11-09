@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B7473E17F6A198BA5FFDAD08B2D5DA9 /* LABMenuExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96DA45E29CB4D94214423DB9D9F276 /* LABMenuExtensions.swift */; };
-		348F2B26594765205FC96CDC6D1FBDD6 /* LABMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD97D01FF36B88E5EF4F3F2C4BCE145 /* LABMenu-dummy.m */; };
-		5264805BEB0C4C98E26D4877AD906224 /* LABMenuContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E263B3B8D6F8F1F8CB841A7F5E6B6 /* LABMenuContainer.swift */; };
-		570477D304CF629C87E45404C6B87B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		58AAFEFA74CDBB000CCE0FE6C5182135 /* LABMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 131C264BF551451FDA6E04C6E2453B58 /* LABMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6491C5A96AD5C32008895E5F2A4A5A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		197BCDBBD5ED1BE92353D4D33172A5D4 /* LABMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 131C264BF551451FDA6E04C6E2453B58 /* LABMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B0D42E922BEDED90BDA7325071A115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		369C0BA823D69B5217D6A5AB38217B2A /* LABMenuContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209E263B3B8D6F8F1F8CB841A7F5E6B6 /* LABMenuContainer.swift */; };
+		4417AA0E1DBA62BB1359935C1020A8A4 /* LABMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD97D01FF36B88E5EF4F3F2C4BCE145 /* LABMenu-dummy.m */; };
+		6491C5A96AD5C32008895E5F2A4A5A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		66C647F26C1605546429FD57223B1E41 /* Pods-MenuController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F7C7C543A7FFDEF354A85AF7D201B3 /* Pods-MenuController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88A3B962CF0D1023DB20C98C51D5E5C7 /* LABMenuView.xib in Sources */ = {isa = PBXBuildFile; fileRef = EFB05EED9A87D478E972A1552A621E43 /* LABMenuView.xib */; };
-		8B4850B3A28945053669B8AB3386A1B7 /* LABMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED40696C89D959E10AEECD1E954F02 /* LABMenuViewController.swift */; };
-		B4BFD4A930608818671AC8E26D5BFD28 /* LABMenuUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5283646204BA711CBCABD924D562F /* LABMenuUtils.swift */; };
+		7744911FC19A24A0E3440B2F1A283BE9 /* LABMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22A17A29B0658DF8052A97931B17E6B /* LABMenuView.swift */; };
+		AE1F4DEEA6340C28DF6AF4E4722798E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B9191F119904C2DAE7085CB26EAF7848 /* LABMenuUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA5283646204BA711CBCABD924D562F /* LABMenuUtils.swift */; };
+		BF6A59B9007C1A53747A70D867E8F974 /* LABMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDED40696C89D959E10AEECD1E954F02 /* LABMenuViewController.swift */; };
+		C55BCB9BF68772108A57F1C1AE8AA976 /* LABMenuExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96DA45E29CB4D94214423DB9D9F276 /* LABMenuExtensions.swift */; };
 		D91A4FF59127A88AEF27E2A96AEBBEFB /* Pods-MenuController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E62F9F76EDCDDE16564BC0E0BCA8936 /* Pods-MenuController-dummy.m */; };
-		FD6A7CFB8337BCB2D25C0214CCCABC7C /* LABMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22A17A29B0658DF8052A97931B17E6B /* LABMenuView.swift */; };
+		FF21291BE13730338F541989844FB3C9 /* LABMenuView.xib in Sources */ = {isa = PBXBuildFile; fileRef = EFB05EED9A87D478E972A1552A621E43 /* LABMenuView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +27,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D463B140326C1B347234C47BEF6767CC;
+			remoteGlobalIDString = 0FD8179CBE932788CDDEB25B35109385;
 			remoteInfo = LABMenu;
 		};
 /* End PBXContainerItemProxy section */
@@ -43,13 +44,14 @@
 		2E7BBFDFE058A07ABFCC3898513E86E4 /* LABMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LABMenu.modulemap; sourceTree = "<group>"; };
 		4CA5283646204BA711CBCABD924D562F /* LABMenuUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LABMenuUtils.swift; path = LABMenu/LABMenuUtils.swift; sourceTree = "<group>"; };
 		54DBF1403A494BAA680AAF88FA0115E7 /* Pods-MenuController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MenuController-resources.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		77C15752BE74E0520380BE8209CA9482 /* LABMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LABMenu-prefix.pch"; sourceTree = "<group>"; };
 		7BADDE2E3032E8490232DE4502A6FAEA /* Pods-MenuController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MenuController.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3BD4DEC65E0B6C430A9F46FDF21F29A /* Pods-MenuController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MenuController.release.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BDD97D01FF36B88E5EF4F3F2C4BCE145 /* LABMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LABMenu-dummy.m"; sourceTree = "<group>"; };
 		C251F11EE0918BB1163CA4EF1689B7F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E22A17A29B0658DF8052A97931B17E6B /* LABMenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LABMenuView.swift; path = LABMenu/LABMenuView.swift; sourceTree = "<group>"; };
 		E7D5F076B8E8A4B1A89EE88B28D2AF8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8F7C7C543A7FFDEF354A85AF7D201B3 /* Pods-MenuController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MenuController-umbrella.h"; sourceTree = "<group>"; };
@@ -61,6 +63,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0046F5BA27880B6E01626D3DA2FCBC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B0D42E922BEDED90BDA7325071A115 /* Foundation.framework in Frameworks */,
+				AE1F4DEEA6340C28DF6AF4E4722798E3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		086F7E8EE81A4597F82E477281EBFAAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,17 +80,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBA2760061438CAF062D815C1E693C6F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				570477D304CF629C87E45404C6B87B25 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		45CFA23333C1FCC53F2A0090209274FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				45CFA23333C1FCC53F2A0090209274FA /* Pods */,
 				76128C1BD82D58916025DA952558CB54 /* Products */,
 				BE3E1E86D4EE0BB353088A3B1DAAB197 /* Targets Support Files */,
@@ -123,28 +143,12 @@
 			path = LABMenu;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BE3E1E86D4EE0BB353088A3B1DAAB197 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				FA699F0ABB0B90AAADFBD56BE4584293 /* Pods-MenuController */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		FA699F0ABB0B90AAADFBD56BE4584293 /* Pods-MenuController */ = {
@@ -182,6 +186,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3C38B3778BED36B97A8E619F8CD11513 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				197BCDBBD5ED1BE92353D4D33172A5D4 /* LABMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		83801565F4767C3B22FE762FF729F322 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,24 +202,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94A3F6D7F622A19CBED2415ACA5F939D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58AAFEFA74CDBB000CCE0FE6C5182135 /* LABMenu-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D463B140326C1B347234C47BEF6767CC /* LABMenu */ = {
+		0FD8179CBE932788CDDEB25B35109385 /* LABMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AFDBF25A73BD3EF18F4D2C9F3F55C6B /* Build configuration list for PBXNativeTarget "LABMenu" */;
+			buildConfigurationList = C39594F1366B10CFBCF07CC3A2543657 /* Build configuration list for PBXNativeTarget "LABMenu" */;
 			buildPhases = (
-				B9F51B128DABECBD4630015E6BD2EA82 /* Sources */,
-				BBA2760061438CAF062D815C1E693C6F /* Frameworks */,
-				94A3F6D7F622A19CBED2415ACA5F939D /* Headers */,
+				BD4F7C6E8FCEAC38FC3530BB6C8C4993 /* Sources */,
+				0046F5BA27880B6E01626D3DA2FCBC14 /* Frameworks */,
+				3C38B3778BED36B97A8E619F8CD11513 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -257,24 +261,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D463B140326C1B347234C47BEF6767CC /* LABMenu */,
+				0FD8179CBE932788CDDEB25B35109385 /* LABMenu */,
 				FD214176C4FE72C925430E2E3270AB56 /* Pods-MenuController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9F51B128DABECBD4630015E6BD2EA82 /* Sources */ = {
+		BD4F7C6E8FCEAC38FC3530BB6C8C4993 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348F2B26594765205FC96CDC6D1FBDD6 /* LABMenu-dummy.m in Sources */,
-				5264805BEB0C4C98E26D4877AD906224 /* LABMenuContainer.swift in Sources */,
-				0B7473E17F6A198BA5FFDAD08B2D5DA9 /* LABMenuExtensions.swift in Sources */,
-				B4BFD4A930608818671AC8E26D5BFD28 /* LABMenuUtils.swift in Sources */,
-				FD6A7CFB8337BCB2D25C0214CCCABC7C /* LABMenuView.swift in Sources */,
-				88A3B962CF0D1023DB20C98C51D5E5C7 /* LABMenuView.xib in Sources */,
-				8B4850B3A28945053669B8AB3386A1B7 /* LABMenuViewController.swift in Sources */,
+				4417AA0E1DBA62BB1359935C1020A8A4 /* LABMenu-dummy.m in Sources */,
+				369C0BA823D69B5217D6A5AB38217B2A /* LABMenuContainer.swift in Sources */,
+				C55BCB9BF68772108A57F1C1AE8AA976 /* LABMenuExtensions.swift in Sources */,
+				B9191F119904C2DAE7085CB26EAF7848 /* LABMenuUtils.swift in Sources */,
+				7744911FC19A24A0E3440B2F1A283BE9 /* LABMenuView.swift in Sources */,
+				FF21291BE13730338F541989844FB3C9 /* LABMenuView.xib in Sources */,
+				BF6A59B9007C1A53747A70D867E8F974 /* LABMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +296,7 @@
 		9658659117399C4B680DF10E0214969C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LABMenu;
-			target = D463B140326C1B347234C47BEF6767CC /* LABMenu */;
+			target = 0FD8179CBE932788CDDEB25B35109385 /* LABMenu */;
 			targetProxy = 5B8ABFC2760A0029BB7FC9160FEC75A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -353,7 +357,7 @@
 			};
 			name = Release;
 		};
-		2FE5DC007B776BAB4431D743AEA9CF4A /* Debug */ = {
+		3DB19D6A9DE24B4EECE5F37F24C207BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EABE5D8CDCF770E8BB653CFC174E69B6 /* LABMenu.xcconfig */;
 			buildSettings = {
@@ -512,7 +516,7 @@
 			};
 			name = Release;
 		};
-		7388D18CC52CFA45D3AF69239D46A4CE /* Release */ = {
+		BB8EAF3918A2D24E75BBE3C6F21C9D5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EABE5D8CDCF770E8BB653CFC174E69B6 /* LABMenu.xcconfig */;
 			buildSettings = {
@@ -556,20 +560,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AFDBF25A73BD3EF18F4D2C9F3F55C6B /* Build configuration list for PBXNativeTarget "LABMenu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2FE5DC007B776BAB4431D743AEA9CF4A /* Debug */,
-				7388D18CC52CFA45D3AF69239D46A4CE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9D2BC5352A3EB8158354A3BB9E78B237 /* Build configuration list for PBXNativeTarget "Pods-MenuController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44FF3FA69085395E1BDE1222A72CEC57 /* Debug */,
 				6C0CBD2B43FA9471262B676161B642EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39594F1366B10CFBCF07CC3A2543657 /* Build configuration list for PBXNativeTarget "LABMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB19D6A9DE24B4EECE5F37F24C207BF /* Debug */,
+				BB8EAF3918A2D24E75BBE3C6F21C9D5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

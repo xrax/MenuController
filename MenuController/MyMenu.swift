@@ -29,7 +29,7 @@ class MyMenu: LABMenuContainer {
     }
     
     init(delegate: MyMenuDelegate) {
-        super.init(delegate: delegate)
+        super.init(menuProportionalWidth: 0.8, delegate: delegate)
         myMenuDelegate = delegate
         Bundle.main.loadNibNamed("MyMenu",
                                  owner: self,
