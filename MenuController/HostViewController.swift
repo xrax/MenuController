@@ -16,6 +16,7 @@ class HostViewController: LABMenuViewController {
         barColor = .lightGray
         menuProportionalWidth = 0.8
         hideMenuButtonWhenShow = true
+//        backPosition = .left
         
         super.viewDidLoad()
         
