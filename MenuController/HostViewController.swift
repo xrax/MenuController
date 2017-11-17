@@ -14,9 +14,10 @@ class HostViewController: LABMenuViewController {
     override func viewDidLoad() {
         // menuView properties
         barColor = .lightGray
+        barTintColor = .white
         menuProportionalWidth = 0.8
         hideMenuButtonWhenShow = true
-//        backPosition = .left
+        backPosition = .left
         
         super.viewDidLoad()
         

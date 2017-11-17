@@ -28,6 +28,9 @@ open class LABMenuViewController: UIViewController, UIGestureRecognizerDelegate,
     open var backPosition: ButtonPosition = .right
     private var handlerView: UIView!
     
+    // true to pop back to a selected viewController
+    open var shouldNavigateToPreviousViewController: Bool = false
+    
     private var backButton: UIBarButtonItem!
     private var menuButton: UIBarButtonItem!
     
@@ -103,14 +106,26 @@ open class LABMenuViewController: UIViewController, UIGestureRecognizerDelegate,
         self.navigationItem.leftBarButtonItem!.tintColor = menuView.tint
     }
     
-    private func addBackButton() {
-        
+    public func setBackButton(image: UIImage) {
         backButton = UIBarButtonItem.barButton(nil,
-                                               image: nil,
+                                               image: image,
                                                titleColor: menuView.tint,
                                                font: UIFont.systemFont(ofSize: 12),
                                                inContext: self,
                                                selector: #selector(LABMenuViewController.onBackClick))
+    }
+    
+    
+    private func addBackButton() {
+        if backButton == nil {
+            backButton = UIBarButtonItem.barButton(nil,
+                                                   image: nil,
+                                                   titleColor: menuView.tint,
+                                                   font: UIFont.systemFont(ofSize: 12),
+                                                   inContext: self,
+                                                   selector: #selector(LABMenuViewController.onBackClick))
+        }
+        
         switch backPosition {
         case .left:
             // Button shall change with menuButton when open or close a VC
@@ -149,6 +164,10 @@ open class LABMenuViewController: UIViewController, UIGestureRecognizerDelegate,
             for queueViewController in internalNavigationController.viewControllers
                 where object_getClassName(queueViewController) == object_getClassName(viewController)
             {
+                if shouldNavigateToPreviousViewController {
+                    internalNavigationController.popToViewController(queueViewController, animated: true)
+                    removeBackButton()
+                }
                 return
             }
             
@@ -171,6 +190,7 @@ open class LABMenuViewController: UIViewController, UIGestureRecognizerDelegate,
             case .left:
                 menuButton.customView!.alpha = 1
                 navigationItem.leftBarButtonItem = menuButton
+                menuView.isHidden = false
                 break
             case .right:
                 removeBackButton()
@@ -232,8 +252,8 @@ open class LABMenuViewController: UIViewController, UIGestureRecognizerDelegate,
         if hideMenuButtonWhenShow {
             let buttonAlpha = LABMenuUtils.getPercentWith(min: 1, max: 0, num: progress)
             navigationItem.leftBarButtonItem?.customView?.alpha = buttonAlpha
+            navigationController!.navigationBar.subviews[2].alpha = buttonAlpha
         }
     }
 }
-
 
