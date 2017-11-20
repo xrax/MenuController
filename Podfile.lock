@@ -1,21 +1,12 @@
 PODS:
-  - LABMenu (0.1.2)
+  - LABMenu (0.2)
 
 DEPENDENCIES:
-  - LABMenu (from `https://github.com/xrax/LABMenu.git`)
-
-EXTERNAL SOURCES:
-  LABMenu:
-    :git: https://github.com/xrax/LABMenu.git
-
-CHECKOUT OPTIONS:
-  LABMenu:
-    :commit: 7bf14cba15ec9f83c1a3b764a27176640d8c9534
-    :git: https://github.com/xrax/LABMenu.git
+  - LABMenu
 
 SPEC CHECKSUMS:
-  LABMenu: 4f495cc4c4620a13e074c5da0cfa025e18586e9d
+  LABMenu: a8ee0f4893bbd70b23ef130096f7d6776101188f
 
-PODFILE CHECKSUM: 9af699cbfbe2602f861f0d70a1022925f61fd76f
+PODFILE CHECKSUM: 1d72135e6010ac43000a1bece5956e7cf697b220
 
 COCOAPODS: 1.3.1
